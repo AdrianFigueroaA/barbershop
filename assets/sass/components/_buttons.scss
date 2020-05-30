@@ -1,0 +1,71 @@
+.buttons__container{
+
+   background-color:$platinum;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.page-item:first-child .page-link {
+    
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+
+.btn{
+
+    display: inline;
+     align-content: space-between;
+     margin-bottom: 30px;
+}
+
+
+.btn-secondary:hover {
+
+    color: #fff;
+    background-color: $light-gray;
+    border-color: #545b62;
+
+}
+
+.btn-lg, .btn-group-lg > .btn {
+   
+    border-radius: 5.3rem;
+}
+
+
+.btn:first-child{
+
+    margin-left: 130px;
+}
+
+@media (max-width: 480px){
+
+
+    .btn{
+
+        display: inline-flex;
+        align-content: space-between;
+        font-size: 15px;
+    }
+    
+
+
+    .btn:first-child{
+
+        margin-left: 20px;
+    }
+    
+
+}

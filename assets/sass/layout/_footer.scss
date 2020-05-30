@@ -1,0 +1,29 @@
+
+.footer__container{
+
+    height: 200px;
+    background-color:$raisin-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+.footer__logo{
+
+   height: 50px;
+
+}
+
+@media (max-width: 480px){
+
+    .footer__logo{
+
+        height: 30px;
+     
+     }
+     
+   
+}
