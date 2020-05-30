@@ -10047,11 +10047,22 @@ body {
 .page-item:first-child .page-link {
   border-top-left-radius: 25px;
   border-bottom-left-radius: 25px;
+  color: #6C6E70;
 }
 
 .page-item:last-child .page-link {
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
+  color: #121619;
+}
+
+.page-link {
+  color: #121619;
+}
+
+.page-link:hover {
+  color: #121619;
+  background-color: #6C6E70;
 }
 
 .btn {
@@ -10130,6 +10141,10 @@ h3 {
   color: #ECBCBA;
 }
 
+h3:hover {
+  color: #222323;
+}
+
 .description__Redes {
   display: inline-block;
 }
@@ -10147,6 +10162,7 @@ h3 {
   .description__naomi {
     border-radius: 50%;
     height: 130px;
+    margin-bottom: 20px;
     margin-top: 55px;
     width: 130px;
     margin-left: 80px;

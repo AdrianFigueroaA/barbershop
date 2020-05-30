@@ -14,15 +14,27 @@
     
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
+    color: $nickel;
 }
 
 .page-item:last-child .page-link {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
+    color: $eerie-black;
 }
 
+.page-link {
 
+    color: $eerie-black;
+    
+    }
 
+    .page-link:hover {
+        
+        color: $eerie-black;
+        background-color: $nickel;
+    
+    }
 .btn{
 
     display: inline;
@@ -48,6 +60,7 @@
 .btn:first-child{
 
     margin-left: 130px;
+    
 }
 
 @media (max-width: 480px){
