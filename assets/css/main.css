@@ -9920,11 +9920,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   background-image: url(./../images/post-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   background-position: 80%;
+}
+
+.fa, .fas {
+  font-weight: 900;
+  color: white;
+  font-size: 35px;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  margin-bottom: -13px;
 }
 
 .main__title {
@@ -9933,6 +9944,7 @@ body {
   font-size: 70px;
   color: #fff;
   font-style: italic;
+  padding-bottom: 50px;
 }
 
 .contenido__fecha {
